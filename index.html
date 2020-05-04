@@ -31,5 +31,35 @@
 			going to be interacting with. We can measure these things for performance
 			in our app with browser devtools.
 		</p>
+		<h3>Browser Devtools</h3>
+		<p>
+			Browser Devtools allow us to measure performance. Not only can we see the
+			code and measure the app performance on the browser but we can also
+			simulate different devices and connection speeds to measure different
+			perormance case scenarios. We can use the elements tab to see our HTML
+			markup and observe structure changes and repaints/rerenders. The network
+			tab lets us see all the requests we make and the files we downlaod such as
+			our scripts, html, css and bundles. In the network tab we can see the file
+			sizes for these downloads and also by seeing the files downlaoded we can
+			determine if we are making any uneccessary extra HTTP roundtrips. We can
+			also throttle and simualte slower internet connection speeds in the
+			network tab to test how the startup and runtime performance on your app is
+			on slower connections. We can also throttle and slow down cpu performance
+			in the performance tab. We can also record performance in the performance
+			tab with the record button. This allows you to record a portion of your
+			interaction with the app and then see the performance results profile.
+			This performance results profile will have many different graphs and data
+			visualisations of the different interactions performance, this is helpful
+			to see any bottle necks or performance spikes. You can zoom into potential
+			spikes on the performance profile graph by simply clicking and dragging
+			over the area to go into a zoomed in and more detailed look at that
+			particualr areas performance. We can see things such as the call stack,
+			interactions, the main thread etc. giving us the ability to deep dive into
+			the performance of our code and interactions. The memory tab lets us take
+			memory snapshots such as a heap snapshot showing us all JavaScript objects
+			and dom nodes stored in memory, great for finding memory leaks in your
+			application. We also have the audits tab which allows us to run a
+			performance audit using googles lighthouse.
+		</p>
 	</body>
 </html>
